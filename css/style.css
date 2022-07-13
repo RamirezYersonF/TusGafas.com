@@ -5,8 +5,39 @@
 }
 header{
     width: 100%;
-    background-color: azure;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px;
+    background: #f7f7f7;
+    box-shadow:  21px 21px 34px #cdcdcd,
+             -21px -21px 34px #ffffff;
 }
+
+header .header__container--img a{
+    display: flex;
+    text-decoration: none;
+}
+header .header__container--img h3{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-self: center;
+    color:#3B3B3B;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
 header .header__container--img img{
     width: 60px;
+    margin-right: 5px;
+}
+.nav{
+    display: none;
+}
+.nav__movil .fa-bars{
+    color: #3B3B3B;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;    
 }
